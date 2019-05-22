@@ -19,7 +19,7 @@ mysqlCon.connect((err) => {
 });
 
 let getStream = () => {
-	let jsonData = 'xae',
+	let jsonData = 'jsonFile',
 		stream = fs.createReadStream(jsonData).pipe(JSONStream.parse('_source'));
 	return stream;
 };
