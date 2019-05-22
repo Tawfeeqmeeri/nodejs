@@ -7,7 +7,7 @@ let mysqlCon = mysql.createConnection({
 	host: 'localhost',
 	user: '****',
 	password: '****',
-	database: '*****'
+	database: '*****`'
 });
 
 mysqlCon.connect((err) => {

@@ -7,9 +7,9 @@ let port = 5000;
 
 let mysqlCon = mysql.createConnection({
   host: 'localhost', 
-  user:'root',
-  password: 'root', 
-  database: 'domaindb'
+  user:'****',
+  password: '****', 
+  database: '****'
 });
 
 mysqlCon.connect((err) =>{
